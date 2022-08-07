@@ -1,6 +1,7 @@
 # 가로와 세로 각각으로 판단한다.
 # 가로면 [0:i], [i,j]형태로 만든다. 세로 또한 마찬가지이다.
 # insert로 0을 넣어서 표시한다
+# insert에 대하여 공부할 수 있었다.
 garo, sero = map(int, input().split())
 N = int(input())
 garocut, serocut = [], []
