@@ -1,6 +1,4 @@
-from cProfile import label
-
-
+# 무슨 이상한 공식 써야함..
 a, b = map(int, input().split())
 if a % 2 == 0:
     for i in range(a+1,b,2):
