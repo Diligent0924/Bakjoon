@@ -1,13 +1,17 @@
-def solution():
-    concentration, mass = [],[]
-    for i in range(5):
-        test_case = input(f'{i+1}.소금물의 농도(%)와 소금물의 양(g)을 입력하십시오: ')
-        if test_case == 'Done':
-            break
-        a, b = test_case.split()
-        a = int(a.replace("%",""))
-        b = int(b.replace("g",""))
-        concentration.append(round(float((b*a) / 100), 2))
-        mass.append(round(float(b),2))
+import re
 
-    return (f'{(sum(concentration) / sum(mass)) * 100}% {sum(mass)}g')
+
+T = int(input())
+
+for _ in range(T):
+    # N : 문서의 개수 / M : 원하는 사람 => 위치가 어디인가?
+    N, M = map(int,input().split())
+    arr = list(map(int, input().split()))
+    arr_2 = [[i,v] for i,v in enumerate(arr)]
+    arr_2 = sorted(arr_2, key=lambda x: (-x[1], x[0]))
+    
+    count = 0
+    for i in arr_2:
+        count += 1
+        if i[0] == M:
+            print(count)
