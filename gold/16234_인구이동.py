@@ -8,17 +8,20 @@ def dfs(i,j):
     list_a.append([i,j])
     count += arr[i][j]  
     print(count)
-    if 0 <= i < N and 0 <= j < N:
-        if L <= abs(arr[i][j] - arr[i][j+1]) <= R and [i,j+1] not in list_a:
-            print(1)
-            dfs(i,j+1)
-        if L <= abs(arr[i][j] - arr[i][j-1]) <= R  and [i,j-1] not in list_a:
-            dfs(i,j-1)
-        if L <= abs(arr[i][j] - arr[i-1][j]) <= R  and [i-1,j] not in list_a:
-            dfs(i-1,j)
-        if L <= abs(arr[i][j] - arr[i+1][j]) <= R  and [i+1,j] not in list_a:
-            print(2)
-            dfs(i+1,j)
+    if 0 <= i <= N-1 and 0 <= j <= N-1:
+        if j+1 < N:
+            if L <= abs(arr[i][j] - arr[i][j+1]) <= R and [i,j+1] not in list_a:
+                dfs(i,j+1)
+        if j-1 >= 0:
+            if L <= abs(arr[i][j] - arr[i][j-1]) <= R  and [i,j-1] not in list_a or j-1 >= 0:
+                dfs(i,j-1)
+        if i-1 >= 0:
+            if L <= abs(arr[i][j] - arr[i-1][j]) <= R  and [i-1,j] not in list_a or i-1 >= 0 :
+                dfs(i-1,j)
+        if i+1 < N:
+            if L <= abs(arr[i][j] - arr[i+1][j]) <= R  and [i+1,j] not in list_a or i+1 < N:
+                dfs(i+1,j)
+        return 
     else:
         return 
 
