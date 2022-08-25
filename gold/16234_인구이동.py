@@ -1,5 +1,9 @@
 import sys
 sys.setrecursionlimit(10**4) # 깊이를 변화시켜준다.
+<<<<<<< HEAD
+=======
+from copy import deepcopy
+>>>>>>> 74c686e564d6699fd652b4474c7da5e73c370ccd
 
 def dfs(i,j):
     global count, visited,count_count_dic
@@ -27,9 +31,15 @@ def dfs(i,j):
 
 N, L, R = map(int, input().split())
 arr = [list(map(int, input().split())) for i in range(N)]
+<<<<<<< HEAD
 
 day = 0 # 처음날짜부터 얼만큼이나 돌아갔는가?
 while True:
+=======
+day = 0 # 처음날짜부터 얼만큼이나 돌아갔는가?
+while True:
+    a = deepcopy(arr)
+>>>>>>> 74c686e564d6699fd652b4474c7da5e73c370ccd
     count_count_dic = {}
     count_list = {}
     day += 1
@@ -45,6 +55,7 @@ while True:
                 arr_count += 1
                 count = 0 # 해당 영역에서의 합을 구한다.
                 dfs(i,j)
+<<<<<<< HEAD
                 count_list[arr_count] = count # 해당 영역과 영역의 합을 구한다.
     # print(visited)
     # print(count)
@@ -58,3 +69,17 @@ while True:
             for j in range(N):
                 if visited[i][j] in count_list:
                     arr[i][j] = count_list[visited[i][j]] // count_count_dic[visited[i][j]]
+=======
+                count_list[arr_count] = count
+            
+                arr[i][j] = count // count_count_dic[visited[i][j]]
+            # 해당되는 구분에 따라서 arr를 변경하기 위해서 사용한다.
+    print(visited)
+    print(arr)
+    
+    if a != arr:
+        continue
+    else:
+        print(day-1)
+        break
+>>>>>>> 74c686e564d6699fd652b4474c7da5e73c370ccd

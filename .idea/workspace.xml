@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e8c3ec2-be4c-48a6-9bb7-43e05ba34ebd" name="Default Changelist" comment="0825" />
+    <list default="true" id="0e8c3ec2-be4c-48a6-9bb7-43e05ba34ebd" name="Default Changelist" comment="0825">
+      <change afterPath="$PROJECT_DIR$/실버/1074_Z.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/1676_팩토리얼.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gold/16234_인구이동.py" beforeDir="false" afterPath="$PROJECT_DIR$/gold/16234_인구이동.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
