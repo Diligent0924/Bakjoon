@@ -1,6 +1,5 @@
 '''
 참외밭 면적 당 개수 : N
-주어진 조건 arr에 2배를 곱하고 가장 큰값 찾기
 가장 큰값 양옆 확인 => 가장 큰값 * 옆에서 가장 큰값(전체 면적)
 양 옆 (큰값 - 작은값) * (작은 옆값의 옆)
 '''
@@ -19,12 +18,15 @@ for i in range(6):
         max_arr = arr[i]
 
 # 양 옆중에 더 큰값 찾기
-if max_i - 1 < 0:
-    a = arr[-1]
+
+if arr[(max_i-1)%6] > arr[(max_i+1)%6]:
+    max_side = arr[(max_i-1)%6]
+    min_side = arr[(max_i+1)%6]
+    min_side_i = (max_i+2)%6
 else:
-    a = max_i - 1
+    min_side = arr[(max_i-1)%6]
+    max_side = arr[(max_i+1)%6]
+    min_side_i = (max_i-2)%6
 
-if max_i + 1 >
-max_side = max(arr[a], arr[max_i+1])
+print(((max_arr * max_side) - ((max_side - min_side) * arr[min_side_i])) * N)
 
-print(-1%3)
