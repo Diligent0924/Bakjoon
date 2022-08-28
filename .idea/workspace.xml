@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8c3ec2-be4c-48a6-9bb7-43e05ba34ebd" name="Default Changelist" comment="0825">
-      <change afterPath="$PROJECT_DIR$/실버/1074_Z.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/1676_팩토리얼.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gold/16234_인구이동.py" beforeDir="false" afterPath="$PROJECT_DIR$/gold/16234_인구이동.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/시험공부/SWEA_1258.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/시험공부/SWEA_1267.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/시험공부/일곱난쟁이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/시험공부/참외밭.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/시험공부/창고다각형.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1011.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10163.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1244.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2304.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2605_줄세우기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bakjoon/실버/10158_개미.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bakjoon/실버/11866_요세푸스.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bakjoon/실버/1436_영화감독숌.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bakjoon/실버/2116_주사위쌓기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bakjoon/실버/2477_참외밭.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bakjoon/실버/2527_직사각형.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bakjoon/실버/2559_수열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bakjoon/실버/2578_빙고.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bakjoon/실버/2628_종이자르기.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +40,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.1260_DFS와BFS">
-    <configuration name="11047_동전0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.참외밭">
+    <configuration name="창고다각형" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="백준-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -34,11 +51,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/실버" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/시험공부" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/11047_동전0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/시험공부/창고다각형.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -47,7 +64,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11399_ATM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="일곱난쟁이" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="백준-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/실버" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/시험공부" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/11399_ATM.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/시험공부/일곱난쟁이.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1260_DFS와BFS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="참외밭" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="백준-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +93,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/실버" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/시험공부" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/1260_DFS와BFS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/시험공부/참외밭.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SWEA_1258" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="백준-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/시험공부" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/시험공부/SWEA_1258.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SWEA_1267" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="백준-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/시험공부" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/시험공부/SWEA_1267.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,9 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1260_DFS와BFS" />
-        <item itemvalue="Python.11399_ATM" />
-        <item itemvalue="Python.11047_동전0" />
+        <item itemvalue="Python.참외밭" />
+        <item itemvalue="Python.일곱난쟁이" />
+        <item itemvalue="Python.창고다각형" />
+        <item itemvalue="Python.SWEA_1267" />
+        <item itemvalue="Python.SWEA_1258" />
       </list>
     </recent_temporary>
   </component>
