@@ -22,3 +22,4 @@ if K==1:
 else:
     a = solution(list_a, 1, max(list_a),K)
     print(a)
+    print(a)
