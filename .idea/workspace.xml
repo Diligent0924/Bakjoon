@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e8c3ec2-be4c-48a6-9bb7-43e05ba34ebd" name="Default Changelist" comment="0911" />
+    <list default="true" id="0e8c3ec2-be4c-48a6-9bb7-43e05ba34ebd" name="Default Changelist" comment="0904">
+      <change afterPath="$PROJECT_DIR$/실버/11403_경로찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/11659_구간합구하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/11726_타일링1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/1541_잃어버린괄호.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/17626_FOUR Squares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/1780_종이의개수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/18870_좌표압축.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/1967_숨박꼭질.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/2579_계단오르기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/2606_바이러스.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/2630_색종이자르기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/9095_1,2,3더하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/9461_파도반 수열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/9475_패션왕신해빈.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-09-11__1_36__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-09-11__1_36__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실버/1074_Z.py" beforeDir="false" afterPath="$PROJECT_DIR$/실버/1074_Z.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실버/1389_케빈베이컨의6단계.py" beforeDir="false" afterPath="$PROJECT_DIR$/실버/1389_케빈베이컨의6단계.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,14 +37,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.keymap"
-  }
-}]]></component>
-  <component name="RunManager" selected="Python.1389_케빈베이컨의6단계">
+  <component name="RunManager" selected="Python.1967_숨박꼭질">
     <configuration name="창고다각형" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="백준-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +72,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/1389_케빈베이컨의6단계.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1967_숨박꼭질" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="백준-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/실버" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/1967_숨박꼭질.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,10 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1967_숨박꼭질" />
         <item itemvalue="Python.1389_케빈베이컨의6단계" />
+        <item itemvalue="Python.SWEA_1258" />
         <item itemvalue="Python.창고다각형" />
         <item itemvalue="Python.SWEA_1267" />
-        <item itemvalue="Python.SWEA_1258" />
       </list>
     </recent_temporary>
   </component>
@@ -240,14 +274,7 @@
       <option name="project" value="LOCAL" />
       <updated>1661417374468</updated>
     </task>
-    <task id="LOCAL-00002" summary="0911">
-      <created>1662872971479</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1662872971479</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,10 +287,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0825" />
-    <MESSAGE value="0911" />
-    <option name="LAST_COMMIT_MESSAGE" value="0911" />
+    <option name="LAST_COMMIT_MESSAGE" value="0825" />
   </component>
 </project>
