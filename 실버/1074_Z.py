@@ -1,15 +1,30 @@
-N, r, c = map(int,input().split()) # N : 정사각형 길이 / r: 찾는행(세로) / c: 찾는열(가로)
-def solution(arr):
-    global N
-    if len(arr) == 2:
-        result.append([0] * 2)
-        return
-    else:
-        N -= 1
-        solution(arr)
-        
-arr, result = [],[]
-for _ in range(4):
-    arr.append([[0] * (2**(N-1)) for _ in range(2**(N-1))])
+import sys
 
-print(arr)
+def partition_2(start_i, start_j, box_size):
+    global count
+    if r < start_i or r >= start_i + box_size or c < start_j or c >= start_j + box_size:
+        count += box_size * box_size
+        return
+    if box_size == 2:
+        if (r, c) in ((start_i,start_j), (start_i,start_j+1), (start_i+1,start_j), (start_i+1, start_j+1)):
+            for dr, dc in ((start_i,start_j), (start_i,start_j+1), (start_i+1,start_j), (start_i+1, start_j+1)):
+                count += 1
+                if r == dr and c == dc:
+                    print(count)
+                    sys.exit()
+                    return
+        else:
+            count += 4
+            return
+    else:
+        partition_2(start_i, start_j, box_size//2)
+        partition_2(start_i, start_j+box_size//2, box_size//2)
+        partition_2(start_i+box_size//2, start_j, box_size//2)
+        partition_2(start_i+box_size//2, start_j+box_size//2, box_size//2)
+        return
+
+
+
+N, r, c = map(int, input().split())
+count = -1
+partition_2(0, 0, 2**N)
