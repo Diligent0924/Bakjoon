@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8c3ec2-be4c-48a6-9bb7-43e05ba34ebd" name="Default Changelist" comment="0904">
-      <change afterPath="$PROJECT_DIR$/실버/11403_경로찾기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/11659_구간합구하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/11726_타일링1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/1541_잃어버린괄호.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/17626_FOUR Squares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/1780_종이의개수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/18870_좌표압축.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/1967_숨박꼭질.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/2579_계단오르기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/2606_바이러스.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/2630_색종이자르기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/9095_1,2,3더하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/9461_파도반 수열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실버/9475_패션왕신해빈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-09-11__1_36__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-09-11__1_36__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/1697_숨바꼭질.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/1931_회의실 배정.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/1992_쿼드트리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/2178_미로탐색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실버/6064_카잉 달력.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/실버/1074_Z.py" beforeDir="false" afterPath="$PROJECT_DIR$/실버/1074_Z.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/실버/1389_케빈베이컨의6단계.py" beforeDir="false" afterPath="$PROJECT_DIR$/실버/1389_케빈베이컨의6단계.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,29 +25,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Python.1967_숨박꼭질">
-    <configuration name="창고다각형" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="백준-2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/시험공부" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/시험공부/창고다각형.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1389_케빈베이컨의6단계" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.6064_카잉 달력">
+    <configuration name="1697_숨바꼭질" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="백준-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,7 +44,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/1389_케빈베이컨의6단계.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/1697_숨바꼭질.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +53,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1967_숨박꼭질" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1931_회의실 배정" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="백준-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/1967_숨박꼭질.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/1931_회의실 배정.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SWEA_1258" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1992_쿼드트리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="백준-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/시험공부" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/실버" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/시험공부/SWEA_1258.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/1992_쿼드트리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SWEA_1267" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2178_미로탐색" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="백준-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +103,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/시험공부" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/실버" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/시험공부/SWEA_1267.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/2178_미로탐색.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6064_카잉 달력" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="백준-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/실버" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/실버/6064_카잉 달력.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1967_숨박꼭질" />
-        <item itemvalue="Python.1389_케빈베이컨의6단계" />
-        <item itemvalue="Python.SWEA_1258" />
-        <item itemvalue="Python.창고다각형" />
-        <item itemvalue="Python.SWEA_1267" />
+        <item itemvalue="Python.6064_카잉 달력" />
+        <item itemvalue="Python.2178_미로탐색" />
+        <item itemvalue="Python.1992_쿼드트리" />
+        <item itemvalue="Python.1931_회의실 배정" />
+        <item itemvalue="Python.1697_숨바꼭질" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +281,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0825" />
