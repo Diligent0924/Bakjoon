@@ -21,4 +21,3 @@ while True:
     else:
         print(temp_count)
         break    
-print(10%5)
