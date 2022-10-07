@@ -1,0 +1,55 @@
+# 정상인일 때 
+def normal(start_i, start_j):
+    same = graph[start_i][start_j]
+    queue = [(start_i, start_j)]
+    graph[start_i][start_j] = 0
+    while queue:
+        i, j = queue.pop(0)
+        for di, dj in ((1,0),(-1,0),(0,1),(0,-1)):
+            ni = i + di
+            nj = j + dj
+            if 0 <= ni < T and 0 <= nj < T and graph[ni][nj] == same:
+                graph[ni][nj] = 0
+                queue.append((ni,nj))
+# 색약일 경우
+def unique(start_i, start_j):
+    same = graph_2[start_i][start_j]
+    queue = [(start_i, start_j)]
+    graph_2[start_i][start_j] = 0
+    while queue:
+        i, j = queue.pop(0)
+        for di, dj in ((1,0),(-1,0),(0,1),(0,-1)):
+            ni = i + di
+            nj = j + dj
+            if 0 <= ni < T and 0 <= nj < T and graph_2[ni][nj] == same:
+                graph_2[ni][nj] = 0
+                queue.append((ni,nj))
+
+
+
+T = int(input())
+graph = [list(input()) for _ in range(T)]
+graph_2 = [[0] * T for _ in range(T)]
+for i in range(T):
+    for j in range(T):
+        if graph[i][j] == "R":
+            graph_2[i][j] = "G"
+        else:
+            graph_2[i][j] = graph[i][j]
+
+# 정상인
+normal_count = 0
+for i in range(T):
+    for j in range(T):
+        if graph[i][j]:
+            normal_count += 1
+            normal(i,j)
+
+# 색약인
+unique_count = 0
+for i in range(T):
+    for j in range(T):
+        if graph_2[i][j]:
+            unique_count += 1
+            unique(i,j)
+print(normal_count,unique_count)
