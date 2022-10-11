@@ -2,7 +2,7 @@
 시간과 연관된 부분에 있어서는 while문을 2번 돌리는 방식으로 사용해야하며 그 안의 조건들을 걸어가면서 푸는 방식
 '''
 
-def solution():
+def solution(): # 처음에 어디에 값이 있는지를 확인하는 함수
     q = []
     for number in range(1, K+1):
         for i in range(N):
@@ -10,8 +10,9 @@ def solution():
                 if graph[i][j] == number:
                     q.append((i,j,number))
     return q            
-def bfs(queue):
-    temp_queue = []
+
+def bfs(queue): 
+    temp_queue = [] # 임시함수로써 이후에 time과 연관되게 하기 위한 하나의 방식
     while queue:
         i,j, number = queue.pop(0)
         for di, dj in ((1,0),(-1,0),(0,1),(0,-1)):
