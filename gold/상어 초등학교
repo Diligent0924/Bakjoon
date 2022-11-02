@@ -1,0 +1,73 @@
+def role_1(student):
+    success_1 = []
+    max_count = 0 # 근처에 있는얘가 가장 많은지 확인하는 count구하기
+    for i in range(N):
+        for j in range(N):
+            if not graph[i][j]:
+                # 4방향을 확인해서 좋아하는 얘가 근처에 있는지 확인하기
+                count = 0
+                for di, dj in ((-1,0),(1,0),(0,1),(0,-1)):
+                    ni, nj = i + di, j + dj
+                    if 0 <= ni < N and 0 <= nj < N and graph[ni][nj] in list_a:
+                        count += 1
+                if max_count == count:
+                    success_1.append((i,j))
+                elif max_count < count:
+                    max_count = count # count 바꿔줘야함
+                    success_1 = []
+                    success_1.append((i,j))
+    if len(success_1) >= 2: # 만약 2개 이상 있다면 그 중에서 골라야한다.
+        # print(f'success_1 : {success_1}')
+        role_2(success_1, student)
+    else:
+        a, b = success_1[0] # 만약 1개라면 그냥 해당하는 곳에 쓰면 된다.
+        graph[a][b] = student
+
+def role_2(prob, student):
+    success_2 = []
+    max_count = 0
+    for i, j in prob: # 가능성 있는 경우의 수에서 빈칸이 가장 많은 것을 구한다.
+        count = 0
+        for di, dj in ((-1,0),(1,0),(0,1),(0,-1)):
+            ni, nj = i + di, j + dj
+            if 0 <= ni < N and 0 <= nj < N and not graph[ni][nj]:
+                count += 1
+        if max_count == count:
+            success_2.append((i,j))
+        elif max_count < count:
+            max_count = count # count를 바꿔줘야한다.
+            success_2 = []
+            success_2.append((i,j))
+    a, b = success_2[0] 
+    graph[a][b] = student
+
+
+N = int(input())
+graph = [[0] * N for _ in range(N)]
+dic = {}
+for _ in range(N**2):
+    list_a = list(map(int,input().split()))
+    student = list_a.pop(0)
+    dic[student] = list_a # 나중에 선호도 조사를 위해서 사용한다.
+    role_1(student)
+
+result = 0
+for i in range(N):
+    for j in range(N):
+        value = graph[i][j]
+        count = 0
+        for di, dj in ((-1,0),(1,0),(0,1),(0,-1)):
+            ni,nj = i + di, j + dj
+            if 0 <= ni < N and 0 <= nj < N and graph[ni][nj] in dic[value]:
+                count += 1
+        # 점수를 붙인다.
+        if count == 1:
+            result += 1
+        elif count == 2:
+            result += 10
+        elif count == 3:
+            result += 100
+        elif count == 4:
+            result += 1000
+
+print(result)
