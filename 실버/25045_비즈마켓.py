@@ -1,9 +1,6 @@
 N, M = map(int, input().split())
-stock = list(map(int, input().split()))
-business = list(map(int, input().split()))
-
-stock.sort(reverse=True)
-business.sort()
+stock = sorted(list(map(int, input().split())), reverse=True)
+business = sorted(list(map(int, input().split())))
 
 count = 0
 for a,b in zip(stock, business):
