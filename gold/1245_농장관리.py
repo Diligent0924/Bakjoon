@@ -19,7 +19,7 @@ def bfs(start_i,start_j):
                     visited[ni][nj] = 1
                     queue.append((ni,nj))
     if data:
-        print(start_i,start_j)
+        # print(start_i,start_j)
         result += 1
 
 N, M = map(int, input().split())
