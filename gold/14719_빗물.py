@@ -19,6 +19,20 @@ for i in range(1,sero+1): # 1층부터 시작한다고 생각해야함
     for j in range(start+1,end): # 그 사이에 있는 물이 있으면 추가해준다.
         if arr[j] < i:
             count += 1
-    print(count)
+    # print(count)
     result += count
 print(result)
+
+H,W=map(int,input().split())
+
+arr=list(map(int,input().split()))
+#print(peak(arr))
+rain=0
+stacks=[]
+for i in range(1,len(arr)-1):
+    peak1=max(arr[:i])
+    peak2=max(arr[i+1:])
+    if min((peak1,peak2))>arr[i]:
+        rain+=min((peak1,peak2))-arr[i]
+    
+print(rain)
