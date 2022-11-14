@@ -1,7 +1,8 @@
-import heapq
-a = [45, -653]
-print(heapq.heapify(a))
-heapq.heappush(a, 5)
-print(a)
-heapq.heappop(a)
-print(a)
+d = (0, -1), (-1, -1), (-1, 0), (-1, 1), (0, 1), (1, 1), (1, 0), (1, -1)
+print(d)
+
+for i, j in (1,2),(2,3):
+    print(i,j)
+
+a, *b = 1, 2, 3
+print(a,b)
