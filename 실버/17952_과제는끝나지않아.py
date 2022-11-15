@@ -13,7 +13,9 @@ for _ in range(N):
         list_a.append([a[0],a[1]])
         list_a[-1][1] -= 1
     elif list_a and not b:
-        list_a[-1][1] -= 1
+        c,d = list_a.pop()
+        d -= 1
+        list_a.append((c,d))
     
     if list_a and not list_a[-1][1]:
         result += list_a[-1][0]
