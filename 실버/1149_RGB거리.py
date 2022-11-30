@@ -38,7 +38,7 @@
 
 N = int(input())
 arr = [list(map(int,input().split())) for _ in range(N)]
-rgb = [arr[0]] + [[min(rgb[i-1][1],rgb[i-1][2])+arr[i][0], min(rgb[i-1][0],rgb[i-1][2]) + arr[i][1],min(rgb[i-1][0],rgb[i-1][1]) + arr[i][2]] for i in range(1,N)]
+rgb = [arr[0]]
 for i in range(1,N):
     rgb_list = [min(rgb[i-1][1],rgb[i-1][2])+arr[i][0], min(rgb[i-1][0],rgb[i-1][2]) + arr[i][1],min(rgb[i-1][0],rgb[i-1][1]) + arr[i][2]]
     rgb.append(rgb_list)
