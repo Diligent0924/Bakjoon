@@ -6,7 +6,7 @@ len_word = len(list_a[0])
 for i in range(1,len_word+1):
     list_b = []
     for j in range(N):
-        str1 = list_a[j][:i]
+        str1 = list_a[j][:i] # 끝날 때 기준으로 해야한다.
         if str1 in list_b:
             break
         else:
