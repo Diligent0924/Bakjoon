@@ -16,6 +16,6 @@ for i in range(1, N):
     max_DP[i][1] = graph[i][1] + max(max_DP[i-1][0], max_DP[i-1][1], max_DP[i-1][2])
     max_DP[i][2] = graph[i][2] + max(max_DP[i-1][1], max_DP[i-1][2])
 
-print(min_DP)
-print(max_DP)
+# print(min_DP)
+# print(max_DP)
 print(max(max_DP[N-1]), min(min_DP[N-1]))
