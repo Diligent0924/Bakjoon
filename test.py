@@ -1,2 +1,4 @@
-Dic = {"a":1, "b":2}
-print(Dic)
+list_a = [1,2,3]
+
+list_a = list_a / 2
+print(list_a)
