@@ -67,5 +67,5 @@ while True:
                         if b:
                             print(count)
                             exit()
-    pprint(graph)
-    print("-------------")
+    # pprint(graph)
+    # print("-------------")
