@@ -1,57 +1,58 @@
 '''
 단방향으로 확인이 가능하다.
 A, B, C, D를 각각 0, 1과 같이 순서대로 넣는다. ord("A") - 65 방식을 사용
-root가 2개인 경우의 수도 있을 수 있다.
-
+1. Root 
 '''
+from collections import defaultdict
 def ord_change(alpha):
     return ord(alpha) - 65
 
-def recurse(now):
-    queue = [now]
-    while queue:
-        n = queue.pop(0)
-        if not visited[n]:
-            visited[n] = 1
-            queue.extend(arr[n])
-
-def root():
-    number = 0
-    root_visited = [0] * 26
-    for k in point:
-        queue = [k]
-        while queue:
-            n = queue.pop(0)
-            for l in arr[n]:
-                if not root_visited[l]:
-                    root_visited[l] = 1
-                    queue.append(l)
-    for k in point:
-        if not root_visited[k]:
-            number += 1
-    # print(root_visited)
-    # print(point)
-    return number
 
 N, M = map(int, input().split())
 arr = [[] for _ in range(26)]
-point = set()
+child_dic = defaultdict()
+nodes = set()
+root = []
 for _ in range(M):
     a, b = map(str, input().split())
     arr[ord_change(a)].append(ord_change(b))
-    point.add(ord_change(a))
-    point.add(ord_change(b))
+    nodes.add(ord_change(a))
+    nodes.add(ord_change(b))
+    if b not in child_dic:
+        child_dic[ord_change(b)] = [ord_change(a)]
+    else:
+        child_dic[ord_change(b)].append(ord_change(a)) # 자식 기준으로 부모가 있는지를 확인한다.
 
-root_number = root()
-print(root_number)
+police = list(input().split())[1:]
+police = [ord_change(i) for i in police]
 
+# 전체를 확인하면서 부모가 있는지 없는지를 확인한다.
+for i in nodes:
+    if i not in child_dic:
+        root.append(i)
+
+# 검거된 노드는 그냥 전체에서 삭제한다.
+for i in police:
+    for j in arr:
+        if i in j:
+            j.remove(i)
+
+# print(root)
+# print(police)
+# print(arr)
+remain = set()
 visited = [0] * 26
-p_list = list(input().split())[1:]
-for p_value in p_list:
-    p = ord_change(p_value)    
-    recurse(p)
+for i in root:
+    if i not in police:
+        queue = [i]
+        visited[i] =1
+        while queue:
+            node = queue.pop(0)
+            print(node)
+            for h in arr[node]: # 갈 수 있는 곳을 한번씩 확인한다.    
+                if not visited[h]: 
+                    visited[h] = 1
+                    remain.add(h)
+                    queue.append(h)
 
-if N == visited.count(1):
-    print(0)
-else:
-    print(N - visited.count(1) - root_number) # root의 개수 필요
+print(len(remain))
